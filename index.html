@@ -8,30 +8,31 @@
 </head>
 <body>
     <main>
-        <section class="card">
-            <h1>Hi, My name is Francisco</h1>
+        <details class="card" open>
+            <summary><h1>Hi, My name is Francisco</h1></summary>
             <p>I am a student at UTRGV.</p>
 
+            <button id="image-toggle" type="button">Hide image</button>
             <img src="https://www.shutterstock.com/shutterstock/photos/76166707/display_1500/stock-photo-one-tree-and-perfect-grass-field-76166707.jpg" alt="My picture">
-        </section>
+        </details>
 
-        <section class="card">
-            <h2>About me</h2>
+        <details class="card" open>
+            <summary><h2>About me</h2></summary>
             <p>I enjoy solving problems, especially involving computers.</p>
-        </section>
+        </details>
 
-        <section class="card">
-            <h2>Projects</h2>
+        <details class="card" open>
+            <summary><h2>Projects</h2></summary>
             <h3> My first portfolio website</h3>
             <p> I built my first page with HTML, css, and some javascript!</p>
             <p> <a href="https://github.com/FranciscoIbarra12/personal-portfolio/"> See the Github Repo </a> </p>
-        </section>
+        </details>
 
-        <section class="card">
-            <h2>Fun Fact</h2>
+        <details class="card" open>
+            <summary><h2>Fun Fact</h2></summary>
             <button id="fact-button" type="button"> Show a fun fact</button>
             <p id="fun-fact" hidden> This is my first time making a website </p>
-        </section>
+        </details>
 
     </main>
 

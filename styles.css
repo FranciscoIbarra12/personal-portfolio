@@ -14,10 +14,25 @@ main {
 .card {
     margin-bottom: 24px;
     padding: 24px;
-    background-color: white;
+    background-color: #d3d3d3;
     border: 1px solid #d9e1ee;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(36, 48, 71, 0.08);
+}
+
+.card > summary {
+    cursor: pointer;
+    list-style-position: outside;
+}
+
+.card > summary h1,
+.card > summary h2 {
+    display: inline;
+}
+
+.card > summary:focus-visible {
+    outline: 2px solid #173a72;
+    outline-offset: 4px;
 }
 
 h1,h2{
